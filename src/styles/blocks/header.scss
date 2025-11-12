@@ -1,7 +1,7 @@
 .header {
   background-image: url(../images/header-bg-mobile.png);
   background-size: cover;
-  background-position: -350px center;
+  background-position: right center;
 
   &__content {
     height: 100vh;
@@ -52,7 +52,7 @@
   }
 
   @include on-tablet {
-    background-position: center;
+    background-position: right center;
   }
 
   @include on-desktop {
